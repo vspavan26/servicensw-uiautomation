@@ -1,0 +1,146 @@
+[
+  {
+    "source": "^user enters search (.*) on find locations page$",
+    "steps": [
+      {
+        "name": "user enters search Sydney 2000 on find locations page",
+        "aggregatedDurations": {
+          "average": 0.662427,
+          "median": 0.662427
+        },
+        "durations": [
+          {
+            "duration": 0.662427,
+            "location": "ServiceNSW.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user lands on servicensw page$",
+    "steps": [
+      {
+        "name": "user lands on servicensw page",
+        "aggregatedDurations": {
+          "average": 4.425572,
+          "median": 4.425572
+        },
+        "durations": [
+          {
+            "duration": 4.425572,
+            "location": "ServiceNSW.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^verify correct search results are found for (.*) on home page$",
+    "steps": [
+      {
+        "name": "verify correct search results are found for Apply for a number plate on home page",
+        "aggregatedDurations": {
+          "average": 0.0578942,
+          "median": 0.0578942
+        },
+        "durations": [
+          {
+            "duration": 0.0578942,
+            "location": "ServiceNSW.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^verify correct search results are found for (.*) on find locations page$",
+    "steps": [
+      {
+        "name": "verify correct search results are found for Marrickville Service Centre on find locations page",
+        "aggregatedDurations": {
+          "average": 1.0688322,
+          "median": 1.0688322
+        },
+        "durations": [
+          {
+            "duration": 1.0688322,
+            "location": "ServiceNSW.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^clicks on search button on home page$",
+    "steps": [
+      {
+        "name": "clicks on search button on home page",
+        "aggregatedDurations": {
+          "average": 1.0959424,
+          "median": 1.0959424
+        },
+        "durations": [
+          {
+            "duration": 1.0959424,
+            "location": "ServiceNSW.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click on find locations$",
+    "steps": [
+      {
+        "name": "user click on find locations",
+        "aggregatedDurations": {
+          "average": 1.753681,
+          "median": 1.753681
+        },
+        "durations": [
+          {
+            "duration": 1.753681,
+            "location": "ServiceNSW.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters search (.*) on home page$",
+    "steps": [
+      {
+        "name": "user enters search Apply for a number plate on home page",
+        "aggregatedDurations": {
+          "average": 0.435158,
+          "median": 0.435158
+        },
+        "durations": [
+          {
+            "duration": 0.435158,
+            "location": "ServiceNSW.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^clicks on search button on find location page$",
+    "steps": [
+      {
+        "name": "clicks on search button on find location page",
+        "aggregatedDurations": {
+          "average": 0.2331834,
+          "median": 0.2331834
+        },
+        "durations": [
+          {
+            "duration": 0.2331834,
+            "location": "ServiceNSW.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]

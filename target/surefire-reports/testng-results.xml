@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.servicensw.StepDefinitions.TestRunner" duration-ms="18001" started-at="2019-08-03T00:50:46Z" finished-at="2019-08-03T00:51:04Z">
+    <groups>
+    </groups>
+    <test name="Command line test 0edd7f81-e66e-490d-ad42-e8588bef25ef" duration-ms="18001" started-at="2019-08-03T00:50:46Z" finished-at="2019-08-03T00:51:04Z">
+    </test> <!-- Command line test 0edd7f81-e66e-490d-ad42-e8588bef25ef -->
+  </suite> <!-- com.servicensw.StepDefinitions.TestRunner -->
+</testng-results>

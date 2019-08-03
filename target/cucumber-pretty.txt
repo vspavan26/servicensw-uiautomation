@@ -1,0 +1,25 @@
+Feature: Verify service nsw website
+
+  @Smoke
+  Scenario Outline: Verify service nsw website                                                   [90m# ServiceNSW.feature:4[0m
+    [36mGiven [0m[36muser lands on servicensw page[0m
+    [36mWhen [0m[36muser enters search <homesearchcriteria> on home page[0m
+    [36mWhen [0m[36mclicks on search button on home page[0m
+    [36mThen [0m[36mverify correct search results are found for <homesearchcriteria> on home page[0m
+    [36mWhen [0m[36muser click on find locations[0m
+    [36mWhen [0m[36muser enters search <findlocationssearchcriteria> on find locations page[0m
+    [36mWhen [0m[36mclicks on search button on find location page[0m
+    [36mThen [0m[36mverify correct search results are found for <findlocationresult> on find locations page[0m
+
+    Examples: 
+
+  @Smoke
+  Scenario Outline: Verify service nsw website                                                          [90m# ServiceNSW.feature:16[0m
+    [32mGiven [0m[32muser lands on servicensw page[0m                                                                 [90m# HomeStepDef.user_is_on_homepage()[0m
+    [32mWhen [0m[32muser enters search [0m[32m[1mApply for a number plate[0m[32m on home page[0m                                       [90m# HomeStepDef.user_enters_search_criteria(String)[0m
+    [32mWhen [0m[32mclicks on search button on home page[0m                                                           [90m# HomeStepDef.click_Search()[0m
+    [32mThen [0m[32mverify correct search results are found for [0m[32m[1mApply for a number plate[0m[32m on home page[0m              [90m# HomeStepDef.isCorrectSearchResultDisplayed(String)[0m
+    [32mWhen [0m[32muser click on find locations[0m                                                                   [90m# FindLocationsStepDef.user_is_on_homepage()[0m
+    [32mWhen [0m[32muser enters search [0m[32m[1mSydney 2000[0m[32m on find locations page[0m                                          [90m# FindLocationsStepDef.user_enters_search_criteria(String)[0m
+    [32mWhen [0m[32mclicks on search button on find location page[0m                                                  [90m# FindLocationsStepDef.click_Search()[0m
+    [32mThen [0m[32mverify correct search results are found for [0m[32m[1mMarrickville Service Centre[0m[32m on find locations page[0m [90m# FindLocationsStepDef.isCorrectSearchResultDisplayed(String)[0m

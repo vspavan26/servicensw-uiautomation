@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.065476">
+<testcase classname="Verify service nsw website" name="Verify service nsw website" time="17.065476">
+<system-out><![CDATA[Given user lands on servicensw page.........................................passed
+When user enters search Apply for a number plate on home page...............passed
+When clicks on search button on home page...................................passed
+Then verify correct search results are found for Apply for a number plate on home page.passed
+When user click on find locations...........................................passed
+When user enters search Sydney 2000 on find locations page..................passed
+When clicks on search button on find location page..........................passed
+Then verify correct search results are found for Marrickville Service Centre on find locations page.passed
+]]></system-out>
+</testcase>
+</testsuite>

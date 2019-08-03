@@ -1,0 +1,6 @@
+com\servicensw\StepDefinitions\FindLocationsStepDef.class
+com\servicensw\StepDefinitions\HomeStepDef.class
+com\servicensw\Pages\FindLocations.class
+com\servicensw\StepDefinitions\ScenarioHooks.class
+com\servicensw\StepDefinitions\TestRunner.class
+com\servicensw\Pages\Home.class

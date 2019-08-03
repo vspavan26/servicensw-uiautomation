@@ -1,0 +1,182 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6543210000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenarioHooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify service nsw website",
+        "description": "",
+        "id": "verify-service-nsw-website;verify-service-nsw-website;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 789575800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenarioHooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4425572000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user lands on servicensw page",
+            "match": {
+              "location": "HomeStepDef.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 435158000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters search Apply for a number plate on home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apply for a number plate",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeStepDef.user_enters_search_criteria(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1095942400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on search button on home page",
+            "match": {
+              "location": "HomeStepDef.click_Search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57894200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify correct search results are found for Apply for a number plate on home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apply for a number plate",
+                  "offset": 44
+                }
+              ],
+              "location": "HomeStepDef.isCorrectSearchResultDisplayed(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1753681000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on find locations",
+            "match": {
+              "location": "FindLocationsStepDef.user_is_on_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 662427000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters search Sydney 2000 on find locations page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney 2000",
+                  "offset": 19
+                }
+              ],
+              "location": "FindLocationsStepDef.user_enters_search_criteria(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 233183400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clicks on search button on find location page",
+            "match": {
+              "location": "FindLocationsStepDef.click_Search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1068832200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify correct search results are found for Marrickville Service Centre on find locations page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Marrickville Service Centre",
+                  "offset": 44
+                }
+              ],
+              "location": "FindLocationsStepDef.isCorrectSearchResultDisplayed(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify service nsw website",
+    "description": "",
+    "id": "verify-service-nsw-website",
+    "keyword": "Feature",
+    "uri": "ServiceNSW.feature"
+  }
+]
